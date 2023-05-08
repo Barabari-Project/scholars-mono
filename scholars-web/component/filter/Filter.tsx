@@ -1,4 +1,5 @@
-import style from "../../styles/Filter.module.css"
+import style from "../../styles/Filter.module.css";
+import React from "react";
 import Select from 'react-select';
 import { useState } from "react";
 import options from "./state.json";
@@ -51,7 +52,7 @@ function Filter(){
                            <label for="21-30" onClick={(e)=>handleAge(e)}>21-30</label>
 
                            <input type={"radio"} name={"age"}  id="31-35" />
-                           <label for="31-35" onClick={(e)=>handleAge(e)}>31-35</label>
+                           <label htmlFor="31-35" onClick={(e)=>handleAge(e)}>31-35</label>
 
                            <input type={"radio"} name={"age"}    id=">35"/>
                            <label for=">35" onClick={(e)=>handleAge(e)}>{">"}35</label>

@@ -1,5 +1,6 @@
 import style from "../../styles/Card.module.css";
 import data from "./data.json";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIdCard , faUsersViewfinder,
       faHospitalUser,faMapLocationDot,
