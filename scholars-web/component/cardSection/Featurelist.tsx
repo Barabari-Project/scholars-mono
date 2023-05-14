@@ -1,5 +1,5 @@
 import FilterItem from "./FilterItem"
-import style from "../../styles/Card.module.css";
+import style from '../../styles/Card.module.css';
 import { useRef } from "react";
 
 export default function Featurelist() {
