@@ -2,7 +2,9 @@ import Link from "next/link";
 import Search from '@/component/header/Search';
 import React, { useState } from "react";
 import NavItem from "./NavItem";
+import dynamic from "next/dynamic";
 
+const Search = dynamic(() => import("../header/Search").then(module => module.default));
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About Us", href: "/About" },
